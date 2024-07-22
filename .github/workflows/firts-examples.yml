@@ -1,0 +1,17 @@
+name: My First Workflow
+
+on: push
+
+jobs:
+    first_job:
+        name: Greetings
+        runs-on:  ubuntu-latest
+        steps:
+            - name: Todays Greeting
+              run: echo "Hello World"
+
+            - name: Wish Good Day
+              run: echo "Good Day!!!"
+
+            - name: Read File
+              run: cat README.md
