@@ -14,4 +14,4 @@ jobs:
               run: echo "Good Day!!!"
 
             - name: Read File
-              run: cat README.md
+              run: /bin/cat README.md
