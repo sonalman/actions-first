@@ -12,6 +12,3 @@ jobs:
 
             - name: Wish Good Day
               run: echo "Good Day!!!"
-
-            - name: Read File
-              run: /bin/cat README.md
